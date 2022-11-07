@@ -1,0 +1,56 @@
+
+  .amazon-link {
+    color: rgb(40, 152, 167);
+    cursor: pointer;
+  }
+
+  .amazon-link:hover {
+    opacity: 0.7;
+  }
+
+
+  .nike-tag {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+
+
+  .price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+  }
+  
+
+  .buy-button {
+    background-color: rgb(225, 164, 28);
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 26px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: opacity 0.1s;
+  }
+  .buy-button:hover {
+  opacity: 0.8;
+  }
+  .buy-button:active {
+    opacity: 0.5;
+  }
+
+  .nuorodos {
+    background-color: rgb(239, 255, 9);
+      border-style: none;
+      border-radius: 10px;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      margin-right: 20px;
+      margin-left: 20px;
+      cursor: pointer;
+      font-size: 15px;
+  }
