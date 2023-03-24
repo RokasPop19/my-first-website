@@ -169,3 +169,34 @@
     padding-top: 6px;
     padding-bottom: 6px;
   }
+
+  .me-button {
+    background-color: rgb(77, 198, 255);
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: padding 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    border-radius: 5px;
+  }
+  
+  .me-button:hover {
+    opacity: 0.7;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(26, 26, 26);
+  }
+
+  .me-button:active {
+    opacity: 0.5;
+  }

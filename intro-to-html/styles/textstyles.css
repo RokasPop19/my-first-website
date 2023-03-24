@@ -80,6 +80,7 @@ p {
         padding-bottom: 7px;
         padding-left: 10px;
         padding-right: 10px;
+        cursor: pointer;
       }
       .organization {
         font-family: arial;
@@ -88,11 +89,23 @@ p {
       }
       .tekstas-1 {
         margin-top: 8px;
-        width: 500px;
+        width: 400px;
       }
       .user {
         color: rgb(96, 96, 96);
       }
       .tag-name {
         color: rgb(29, 155, 240);
+      }
+
+      .empty-button {
+        padding-bottom: 4px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 10px;
+        border: none;
+        background-color: green;
+        color: green;
+        font-size: 1px;
       }
